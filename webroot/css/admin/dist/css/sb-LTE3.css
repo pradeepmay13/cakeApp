@@ -1,0 +1,115 @@
+.sidebar-menu ul li a.active {
+    background-color: #eee;
+    border-left:2px solid #00c0ef;
+    color:#00c0ef;
+}
+.glyphicon-ok-green
+{
+       color:#33AD33;
+}
+.glyphicon-ok-green:hover
+{
+       color:#2E9C2E;
+}
+
+.glyphicon-ok-red
+{
+       color:#FF5C33;
+}
+.glyphicon-ok-red:hover
+{
+       color:#CC4A29;
+}
+.icon-primary
+{
+    color: #00c0ef;
+}
+.icon-primary:hover
+{
+       color:#00acd6;
+}
+.error
+{
+    color:red;
+    font-size: 13px;
+}
+form input[type="text"].error,form textarea.error,form select.error
+{
+    border:1px solid #C60006;
+}
+.text-error {
+    color: red;
+}
+.radio {
+    font-weight: 400;
+}
+li a h4{
+      margin-top: 5px;
+      margin-bottom: 5px;
+      color: #3c8dbc;
+  }
+.form-control
+{
+    height:32px;
+    padding: 3px 6px;
+}
+.btn
+{
+    padding: 5px 12px;
+}
+legend{
+    font-size: 18px;
+    padding-left: 10px;
+}
+.well{
+    padding-top:10px;
+}
+
+
+.quote_info{
+    position: absolute;
+    min-height: 40px;
+    margin-left: 40px;
+    margin-top: 0px;
+    min-width: 320px;
+}
+.quote_info .quote_info_content{
+    margin-left: 0 !important;
+}
+.pull-right button{
+    position: relative;
+    margin-top: 5px;
+}
+.modal-header{
+    background-color: #3c8dbc;
+    color: #fff;
+    font-weight: bold;
+}
+.modal-footer{
+    background-color: #f5f5f5;
+}
+.bootbox-body
+{
+    font-weight: 16px;
+}
+.box{
+    box-shadow:0 1px 1px rgba(0,0,0,0.3)
+}
+#tradelaneListdataTable tbody tr.error>td, #chargesListdataTable tbody tr.error>td {
+    background-color: red !important;
+    color: #fff;
+}
+tr {
+    cursor: pointer;
+}
+input[type='search']
+{
+    margin-right: 5px;
+}
+.has-error>span{
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: #cc0000 !important;
+    background-color: #f3d8d8 !important;
+    background-repeat: repeat !important;
+}
